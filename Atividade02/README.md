@@ -1,23 +1,69 @@
-## Usabilidade, desenvolvimento web, mobile e jogos
+# Formulários Básicos em HTML
 
-Status do projeto
-<p align="center">⏳ Em andamento</p>
+Este projeto reúne uma série de exercícios práticos sobre formulários HTML, com foco em elementos de entrada, validação com JavaScript e estilização com CSS. Os exemplos foram desenvolvidos com base em um material didático voltado para aplicações web com Servlets e JSP.
 
-Repositório criado para a postagem das atividades desenvolvidas na UC de Usabilidade, desenvolvimento web, mobile e jogos, no semestre 2025/02.
+## 📚 Conteúdo Abordado
 
-Este repositório foi criado para fins de estudo, portanto as informações presentes são fictícias.
+- Estrutura básica de um documento HTML
+- Comentários em HTML
+- Elementos de formulário:
+  - Campos de texto (`input[type="text"]`)
+  - Campos de senha (`input[type="password"]`)
+  - Campos ocultos (`input[type="hidden"]`)
+  - Botões (`submit`, `reset`, `button`)
+  - Checkboxes e Radio Buttons
+  - Áreas de texto (`textarea`)
+  - Caixas de seleção (`select`)
+  - Upload de arquivos (`input[type="file"]`)
+- Validação de formulários com JavaScript
+- Separação de scripts em arquivos externos
+- Estilização com CSS (inline, interna e externa)
+- Exemplos de integração com Servlets e JSP
 
-⭐️ Contribuições são bem vindas :)
+## 🧪 Estrutura dos Exercícios
 
+Cada exercício está organizado em arquivos HTML separados, como:
 
-## Atividade01 – Projeto Java Web com Servlet
+- `entradaTexto.html`
+- `entradaSenha.html`
+- `entradaOculta.html`
+- `entradaCheckbox.html`
+- `entradaRadioButton.html`
+- `formularioCadastro.html`
+- `upload.html`
+- `formularioValidacao.html`
+- `exemploCSS1.html`
+- `exemploCSS2.html`
+- `biblioteca.js` (validação externa)
 
-Este projeto é uma atividade prática de desenvolvimento web utilizando **Java Servlet** e **Apache Tomcat**. O objetivo é criar uma aplicação simples que recebe um parâmetro via requisição HTTP e exibe uma saudação personalizada.
+## 🚀 Como Executar
 
-### 🛠️ Tecnologias utilizadas
+1. Clone ou baixe este repositório.
+2. Abra os arquivos `.html` diretamente no navegador.
+3. Para testar validações, interações e estilos, utilize o console do navegador (`F12`).
+4. Para integração com Servlets, configure um servidor como Apache Tomcat e direcione os formulários para os endpoints corretos.
 
-- Java 17+
-- Jakarta Servlet API 6.0
-- Apache Tomcat 10.1.47
-- JSP
-- HTML
+## 🎨 Estilo
+
+O projeto utiliza um arquivo externo de estilo (`estilo.css`) para padronizar a aparência dos formulários:
+
+```css
+p {
+  color: green;
+}
+h1 {
+  color: red;
+  font-size: 13pt;
+  font-weight: bold;
+}
+div.titulo {
+  font-family: tahoma;
+  font-size: 11pt;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+}
+input {
+  font-size: 9pt;
+  color: green;
+}
