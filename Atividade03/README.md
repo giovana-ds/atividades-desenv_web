@@ -2,7 +2,7 @@
 
 Este projeto tem como finalidade desenvolver interfaces gráficas web utilizando HTML, CSS e JavaScript, com foco em cadastro e gerenciamento de alunos. A atividade também envolve o uso de uma IDE (NetBeans) e o versionamento de código com GitHub.
 
-##🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas
 - HTML5
 - CSS3
 - JavaScript
