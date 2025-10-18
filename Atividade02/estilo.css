@@ -1,0 +1,24 @@
+p {
+    color: rgb(90, 53, 121);
+}
+
+h1 {
+    color: rgb(255, 0, 157);
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+div.titulo {
+    font-family: tahoma;
+    font-size: 11pt;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+
+input {
+    font-size: 9pt;
+    font-weight: normal;
+    text-decoration: none;
+    color: rgb(0, 98, 128);
+}

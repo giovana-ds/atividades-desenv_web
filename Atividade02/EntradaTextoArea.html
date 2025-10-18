@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>
+        Area para Entrada de Texto
+    </title>
+</head>
+<script language="JavaScript">
+    function Enviar(form) {
+        document.write("Area1: " + form.area1.value +
+            "<br>Area2: " + form.area2.value);
+    }
+</script>
+
+<body>
+    <form method="post">
+        <textarea name="area1" rows=3 cols=20></textarea><br>
+        <textarea name="area2" rows=3 cols=20>Texto Inicial</textarea><br>
+        <input type="button" name="button1" value="Enviar" onClick="Enviar(this.form)">
+    </form>
+</body>
+
+</html>

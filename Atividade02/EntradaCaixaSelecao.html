@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>
+        Entrada Caixa de Sele&ccedil;&atilde;o
+    </title>
+</head>
+<script language="JavaScript">
+    function Enviar(form) {
+        //selectIndex retorna o elemento selecionado na caixa
+        document.write("Um Dia: " + form.umdia[form.umdia.selectedIndex].value + " = "
+            + form.umdia[form.umdia.selectedIndex].selected);
+    }
+</script>
+
+<body>
+    <form method="post">
+        Um Dia<br>
+        <select name="umdia">
+            <option value="D">Domingo</option>
+            <option value="S">Segunda</option>
+            <option value="T">Ter&ccedil;a</option>
+            <option value="Q">Quarta</option>
+            <option value="I">Quinta</option>
+            <option value="X">Sexta</option>
+            <option value="B">S&aacute;bado</option>
+        </select>
+        <input type="button" name="button1" value="Enviar" onClick="Enviar(this.form)">
+    </form>
+</body>
+
+</html>

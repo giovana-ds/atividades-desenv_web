@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>
+        Entrada de Texto Oculta
+    </title>
+</head>
+<script language="JavaScript">
+    function Enviar(form) {
+        document.write("Input1: " + form.input1.value +
+            "<br>Hidden1: " + form.hidden1.value);
+    }
+</script>
+
+<body>
+    <form method="post">
+        <input type="input" name="input1"> <br>
+        <input type="hidden" name="hidden1" value="dados ocultos"> <br>
+        <input type="button" name="button1" value="Enviar" onClick="Enviar(this.form)">
+    </form>
+</body>
+
+</html>

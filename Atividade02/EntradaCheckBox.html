@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <title>
+        Entrada de CheckBox
+    </title>
+</head>
+<script language="JavaScript">
+    function Enviar(form) {
+        document.write("Caf&eacute;: " + form.refeicoes[0].checked +
+            "<br>Almo&ccedil;o: " + form.refeicoes[1].checked +
+            "<br>Jantar: " + form.refeicoes[2].checked);
+    }
+</script>
+
+<body>
+    <form method="post">
+        <input type="checkbox" name="refeicoes" value="cafe" checked> Caf&eacute;<br>
+        <input type="checkbox" name="refeicoes" value="almoco"> Almo&ccedil;o<br>
+        <input type="checkbox" name="refeicoes" value="jantar"> Jantar<br>
+        <input type="button" name="button1" value="Enviar" onClick="Enviar(this.form)">
+    </form>
+</body>
+
+</html>

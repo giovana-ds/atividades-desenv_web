@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>
+        Entrada Caixa de Sele&ccedil;&atilde;o M&uacute;ltipla
+    </title>
+</head>
+<script language="JavaScript">
+    function Enviar(form) {
+        var saida = "V&aacute;rios Dias:";
+        for (var i = 0; i < form.variosdias.length; i++) {
+            if (form.variosdias[i].selected == true) {
+                saida = saida + "<br>" + form.variosdias[i].value + " = " + form.variosdias[i].selected;
+            }
+        }
+        document.write(saida);
+    } </script>
+
+<body>
+    <form method="post">
+        V&aacute;rios dias<br>
+        <select name="variosdias" size="4" multiple>
+            <option value="D">Domingo</option>
+            <option value="S">Segunda</option>
+            <option value="T">Ter&ccedil;a</option>
+            <option value="Q">Quarta</option>
+            <option value="I">Quinta</option>
+            <option value="X">Sexta</option>
+            <option value="B">S&aacute;bado</option>
+        </select>
+        <input type="button" name="button1" value="Enviar" onClick="Enviar(this.form)">
+    </form>
+</body>
+
+</html>

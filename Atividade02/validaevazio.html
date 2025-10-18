@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Usando fun&ccedil;&atilde;o validar e eVazio</title>
+    <script language="JavaScript">
+        function eVazio(_str) {
+            if (_str == null || _str == "")
+                return true;
+            return false;
+        }
+        function validar(_nome, _senha) {
+            if (eVazio(_nome)) {
+                alert('Nome deve ter um valor');
+                return false;
+            }
+            if (eVazio(_senha)) {
+                alert('Senha deve ter um valor');
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+    <form action="servlet/Login" method="post" onSubmit="return validar(this.txtNome.value, this.txtSenha.value);">
+        Nome : <input type="text" name="txtNome"><br>
+        Senha: <input type="password" name="txtSenha"><br>
+        <input type="submit" value="login">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+package Atividade02;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class ServletAloMundo extends HttpServlet {
+   public ServletAloMundo() {
+   }
+
+   public void doGet(HttpServletRequest var1, HttpServletResponse var2) throws IOException, ServletException {
+      var2.setContentType("text/html");
+      PrintWriter var3 = var2.getWriter();
+      var3.println("<html>");
+      var3.println("<head>");
+      var3.println("<title>P&aacute;gina Alo Mundo</title>");
+      var3.println("</head>");
+      var3.println("<body>");
+      String var4 = var1.getParameter("nome");
+      var3.println("<h1>Alo Mundo, " + var4 + "</h1>");
+      var3.println("</body>");
+      var3.println("</html>");
+      var3.close();
+   }
+}

@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>
+        Entrada de Radio
+    </title>
+</head>
+<script language="JavaScript">
+    function Enviar(form) {
+        document.write("<br>Turno<br>Manh&atilde;: " + form.turno[0].checked +
+            "<br>Tarde: " + form.turno[1].checked +
+            "<br>Noite: " + form.turno[2].checked +
+            "<br>Sexo<br>Masculino: " + form.sexo[0].checked +
+            "<br>Feminino: " + form.sexo[1].checked);
+    }
+</script>
+
+<body>
+    <form method="post">
+        <h2>Grupo 1</h2>
+        <input type="radio" name="turno" value="manha"> Manh&atilde;<br>
+        <input type="radio" name="turno" value="tarde"> Tarde<br>
+        <input type="radio" name="turno" value="noite" checked> Noite<br>
+        <h2>Grupo 2</h2>
+        <input type="radio" name="sexo" value="masculino"> Masculino<br>
+        <input type="radio" name="sexo" value="feminino"> Feminino<br>
+        <input type="button" name="button1" value="Enviar" onClick="Enviar(this.form)">
+    </form>
+</body>
+
+</html>

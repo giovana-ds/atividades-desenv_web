@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>
+        Entrada de Texto com Senha
+    </title>
+</head>
+<script language="JavaScript">
+    function Enviar(form) {
+        document.write("Password1: " + form.password1.value +
+            "<br>Password2: " + form.password2.value);
+    }
+</script>
+
+<body>
+    <form method="post">
+        <input type="password" name="password1" maxlength="8"><br>
+        <input type="password" name="password2" size="10"><br>
+        <input type="button" name="button1" value="Enviar" onclick="Enviar(this.form)">
+    </form>
+</body>
+
+</html>

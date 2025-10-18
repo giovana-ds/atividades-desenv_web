@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <title>
+        Entrada de Texto
+    </title>
+</head>
+<script language="JavaScript">
+    function Enviar(form) {
+        document.write("Input1: " + form.input1.value +
+            "<br>Input2: " + form.input2.value +
+            "<br>Input3: " + form.input3.value);
+    }
+</script>
+
+<body>
+    <form method="post">
+        <input type="input" name="input1"><br>
+        <input type="input" name="input2" size="10"><br>
+        <input type="input" name="input3" value="texto inicial"><br>
+        <input type="button" name="button1" value="Enviar" onclick="Enviar(this.form)">
+    </form>
+</body>
+
+</html>

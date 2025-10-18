@@ -1,0 +1,29 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class Hello extends HttpServlet {
+   public Hello() {
+   }
+
+   public void doGet(HttpServletRequest var1, HttpServletResponse var2) throws ServletException, IOException {
+      var2.setContentType("text/html");
+      PrintWriter var3 = var2.getWriter();
+      String var4 = var1.getParameter("usuario");
+      if (var4 == null) {
+         var4 = "World";
+      }
+
+      var3.println("<html><head><title>");
+      var3.println("Saida Simples Servlet");
+      var3.println("</title></head><body>");
+      var3.println("<h1>Saida simples servlet</h1>");
+      var3.println("<p>Hello, " + var4 + "!</p>");
+      var3.println("</body></html>");
+      var3.close();
+   }
+}
