@@ -8,6 +8,7 @@ Este projeto tem como finalidade desenvolver interfaces gráficas web utilizando
 - JavaScript
 - NetBeans IDE
 - GitHub
+- Vercel (para publicação)
 
 ## 📁 Estrutura do projeto
 
@@ -37,3 +38,6 @@ Este projeto tem como finalidade desenvolver interfaces gráficas web utilizando
   - Diferença entre métodos GET e POST
   - Inclusão de imagens em tabelas
   - Cursos online de desenvolvimento web
+
+## 🌐 Projeto publicado
+[Ver projeto online](https://atividades-desenv-web.vercel.app/index.html)
