@@ -18,3 +18,5 @@ Este projeto reúne uma série de exercícios práticos sobre formulários HTML,
 ### Atividade03 - CadastroAlunoHTML_web
 Este projeto tem como finalidade desenvolver interfaces gráficas web utilizando HTML, CSS e JavaScript, com foco em cadastro e gerenciamento de alunos. A atividade também envolve o uso de uma IDE (NetBeans) e o versionamento de código com GitHub.
 
+### Atividade04 - NetBeans 13 e Tomcat 9
+Este projeto foi criado como parte das atividades de configuração e desenvolvimento de aplicações Web em Java, utilizando o Apache NetBeans IDE 13 e o servidor Apache Tomcat 9.
