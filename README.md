@@ -22,6 +22,6 @@ Este projeto tem como finalidade desenvolver interfaces gráficas web utilizando
 Este projeto foi criado como parte das atividades de configuração e desenvolvimento de aplicações Web em Java, utilizando o Apache NetBeans IDE 13 e o servidor Apache Tomcat 9.
 
 ### Atividade05 - Projeto Java Servlets — Calculadora e Fatorial
-Este repositório contém dois exemplos práticos de aplicações web desenvolvidas com Java Servlets:
+Esta pasta contém dois exemplos práticos de aplicações web desenvolvidas com Java Servlets:
 - `servlet_calculadora`: realiza operações matemáticas básicas.
 - `servlet_fatorial`: calcula o fatorial de números inteiros, com entrada fixa ou personalizada.
