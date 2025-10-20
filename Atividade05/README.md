@@ -30,16 +30,16 @@ Esta pasta contém dois exemplos práticos de aplicações web desenvolvidas com
 ## ▶️ Como Executar
 
 ```bash
-# 1. Clone o repositório
+1. Clone o repositório
 git clone https://github.com/seu-usuario/seu-repositorio.git
 
-# 2. Importe o projeto na sua IDE (ex: NetBeans)
+2. Importe o projeto na sua IDE (ex: NetBeans)
 
-# 3. Configure o Apache Tomcat como servidor
+3. Configure o Apache Tomcat como servidor
 
-# 4. Compile e execute o projeto
+4. Compile e execute o projeto
 
-# 5. Acesse via navegador:
+5. Acesse via navegador:
 # Calculadora
 http://localhost:8080/servlet_calculadora/servlet/ServletFrmCalculadora
 
